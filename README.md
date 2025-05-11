@@ -1,63 +1,36 @@
-cat << 'EOF' > README.md
-# 🌐 Nandan Dhakal – Portfolio
 
-Welcome to my personal **Portfolio** showcasing my skills, projects, and contact details. This is a fully responsive, visually engaging site built with **HTML**, **CSS**, and **JavaScript**.
+# 📄 Overview
+This is a personal portfolio website for **Nandan Dhakal**, a CS undergraduate and tech enthusiast. It features a clean and responsive design, showcasing his skills, projects, and contact information.
 
-## 📁 Project Structure
+# ✨ Features
+1. Responsive design for all screen sizes.
+2. Hero section with animated intro.
+3. Skills section with animated progress bars.
+4. About section with social media links.
+5. Live project showcases.
+6. Contact form UI.
+7. Toggleable vertical navigation menu for mobile.
 
-\`\`\`
-📦 portfolio-website/
-├── index.html      # Main HTML file
-├── style.css       # Styling file
-├── script.js       # JavaScript interactivity
-├── logo.png        # Favicon/logo
-└── nandanpp.jpg    # Profile picture
-\`\`\`
+# 🌐 Live Demo
+You can view the portfolio by visiting: [https://nandandhakal.com.np/](https://nandandhaka;com.np/)
 
-## 🚀 Features
+# 🛠️ Project Structure
+The project consists of the following main files:
 
-- ⚡ **Animated Hero Section** with stylish entrance  
-- 👨‍💻 **About Me** with description and social links  
-- 🛠️ **Skills Section** with animated progress bars  
-- 📂 **Project Links** to live deployed projects  
-- 📬 **Contact Form UI** (non-functional frontend form)  
-- 📱 **Mobile-Friendly Design** with a toggleable vertical menu  
+1. `index.html`: Contains the structure and content of the website.
+2. `style.css`: Handles all styling and layout.
+3. `script.js`: Adds interactivity such as menu toggling and input animations.
 
-## 🔗 Live Projects (Showcased in Portfolio)
+# 📋 How to Use
+1. Clone or download this repository.
+2. Open the `index.html` file in your browser.
+3. Explore the site, navigate sections, view projects, and try the contact form layout.
 
-- 🔐 [Login System](https://nandandkl.infinityfreeapp.com/)  
-- 🧮 [Calculator](https://nandandklcalculator.netlify.app/)  
-- ☁️ Weather App *(Coming Soon)*  
-- 🤖 Chatbot *(Coming Soon)*  
+# 📎 Projects Showcased
+- 🔐 [Login System](https://nandandkl.infinityfreeapp.com/)
+- 🧮 [Calculator](https://nandandklcalculator.netlify.app/)
+- ☁️ Weather App *(Coming Soon)*
+- 🤖 Chatbot *(Coming Soon)*
 
-## 🛠️ Technologies Used
-
-- HTML5  
-- CSS3  
-- JavaScript (Vanilla)  
-- Font Awesome for icons  
-- Google Fonts for typography  
-
-## 📷 Preview
-
-![preview](./nandanpp.jpg)
-
-## 📬 Connect With Me
-
-- [LinkedIn](https://www.linkedin.com/in/nandandkl/)  
-- [GitHub](https://github.com/nandandkl)  
-- [Instagram](https://www.instagram.com/nandan_dkl/)  
-- [Discord](https://discord.com/)  
-
-## 📌 How to Run Locally
-
-\`\`\`bash
-git clone https://github.com/nandandkl/portfolio-website.git
-cd portfolio-website
-open index.html  # Or use your preferred browser
-\`\`\`
-
-## 📃 License
-
-This project is open source and available under the MIT License.
-EOF
+# 💬 Feedback
+Have suggestions or found issues? Feel free to open an issue or connect via [LinkedIn](https://www.linkedin.com/in/nandandkl/).
