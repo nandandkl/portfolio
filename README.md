@@ -12,7 +12,7 @@ This is a personal portfolio website for **Nandan Dhakal**, a CS undergraduate a
 7. Toggleable vertical navigation menu for mobile.
 
 # 🌐 Live Demo
-You can view the portfolio by visiting: [https://nandandhakal.com.np/](https://nandandhaka;com.np/)
+You can view the portfolio by visiting: [https://nandandhakal.com.np/](https://nandandhakal.com.np/)
 
 # 🛠️ Project Structure
 The project consists of the following main files:
