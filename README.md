@@ -32,5 +32,12 @@ The project consists of the following main files:
 - ☁️ Weather App *(Coming Soon)*
 - 🤖 Chatbot *(Coming Soon)*
 
+# 🤝 Contributing
+Contributions are welcome! To contribute:
+
+1. Fork the repository.
+2. Create a feature branch.
+3. Submit a pull request with your changes.
+
 # 💬 Feedback
 Have suggestions or found issues? Feel free to open an issue or connect via [LinkedIn](https://www.linkedin.com/in/nandandkl/).
