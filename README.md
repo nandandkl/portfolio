@@ -1,6 +1,6 @@
 
 # 📄 Overview
-This is a personal portfolio website for **Nandan Dhakal**, a CS undergraduate and tech enthusiast. It features a clean and responsive design, showcasing his skills, projects, and contact information.
+Welcome to my personal **Portfolio** showcasing my skills, projects, and contact details. This is a fully responsive, visually engaging site built with **HTML**, **CSS**, and **JavaScript**.
 
 # ✨ Features
 1. Responsive design for all screen sizes.
