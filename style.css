@@ -844,6 +844,7 @@ html{
             }
 
             .vertical-menu.active{
+                position: fixed;
                 border-radius: 60px;
                 background: rgba(255, 255, 255, 0.1);
                 padding: 10px;
