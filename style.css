@@ -184,11 +184,7 @@ html{
             transition: 0.3s;
         }
 
-        .vertical-menu.active{
-            right: -200px;
-            transition: 0.3s;
-        }
-
+        
 
         .vertical-menu a {
             display: block;
@@ -842,6 +838,12 @@ html{
 
 
             .vertical-menu{
+                right: -200px;
+                transition: 0.3s;
+                
+            }
+
+            .vertical-menu.active{
                 border-radius: 60px;
                 background: rgba(255, 255, 255, 0.1);
                 padding: 10px;
@@ -851,6 +853,7 @@ html{
                 padding: 7.5px;
                 gap: 15px;
             }
+
             
 
         } 
