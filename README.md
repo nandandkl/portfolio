@@ -12,7 +12,7 @@ Welcome to my personal **Portfolio** showcasing my skills, projects, and contact
 7. Toggleable vertical navigation menu for mobile.
 
 # 🌐 Live Demo
-You can view the portfolio by visiting: [https://nandandhakal.com.np/](https://nandandhakal.com.np/)
+You can view the portfolio by visiting: [nandandhakal.com.np](https://nandandhakal.com.np/)
 
 # 🛠️ Project Structure
 The project consists of the following main files:
