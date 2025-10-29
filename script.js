@@ -41,27 +41,28 @@ inputs.forEach(input => {
 });
 
 
-
-
-
-
-// const animation = document.querySelectorAll('.fill');
-
-// const observer = new IntersectionObserver( (entries) => {
-
-//     entries.forEach((entry) => {
-
-//         if(entry.isIntersecting){
-//           entry.target.classList.add('fillin');
-//         }else{
-//             entry.target.classList.remove('fillin');
-//         }
-//     })
-// },{
-//     threshold: 0.5
-// });
-
-// for(let i = 0; i < animation.length; i++){
-//     const element = animation[i];
-//     observer.observe(element);
-// }
+const form = document.getElementById('contactForm');
+    
+    form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        
+        const formData = new FormData(form);
+        
+        try {
+            const response = await fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                body: formData
+            });
+            
+            const result = await response.json();
+            
+            if (result.success) {
+                alert('Message sent successfully!');
+                form.reset(); 
+            } else {
+                alert('Failed to send message. Please try again.');
+            }
+        } catch (error) {
+            alert('An error occurred. Please try again.');
+        }
+    });
