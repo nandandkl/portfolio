@@ -125,40 +125,51 @@
         <div class="contact-container">
             <div class="me contact-info">
                 <h3>Get In Touch</h3>
-                <form action="https://api.web3forms.com/submit" method="POST">
+                    <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
                     <input type="hidden" name="access_key" value="aaefcddd-8966-47dc-a664-96d5b5159234">
-                        <div class="input-div one">
-                            <div class="i">
-                                <i class="fa-regular fa-user"></i>
-                            </div>
-                            <div>
-                                <h5>Name</h5>
-                                <input class="input" name="name" type="text" required>
-                            </div>
-                            </div>
-        
-                            <div class="input-div two">
-                                <div class="i">
-                                    <i class="fa-regular fa-envelope"></i>
-                                </div>
-                                <div>
-                                    <h5>Email</h5>
-                                    <input class="input" name="email" type="email" required>
-                                </div>
-                            </div>
 
-                            <div class="input-div three">
-                                <div class="i">
-                                    <i class="fa-regular fa-message"></i>
-                                </div>
-                                <div>
-                                    <h5>Message</h5>
-                                    <input class="input" name="message" type="text" required>
-                                </div>
-                            </div>
-                            
-                            <button type="submit" class="btn"><span class="btn-text">SEND</span><span class="btn-icon">→</span></button>
-                </form>
+                    <div class="input-div one">
+                        <div class="i">
+                        <i class="fa-regular fa-user"></i>
+                        </div>
+                        <div>
+                        <h5>Name</h5>
+                        <input class="input" name="name" type="text" required>
+                        </div>
+                    </div>
+
+                    <div class="input-div two">
+                        <div class="i">
+                        <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <div>
+                        <h5>Email</h5>
+                        <input class="input" name="email" type="email" required>
+                        </div>
+                    </div>
+
+                    <div class="input-div three">
+                        <div class="i">
+                        <i class="fa-regular fa-message"></i>
+                        </div>
+                        <div>
+                        <h5>Message</h5>
+                        <input class="input" name="message" type="text" required>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn">
+                        <span class="btn-text">SEND</span>
+                        <span class="btn-icon">→</span>
+                    </button>
+                    </form>
+
+                    <div id="popup" class="popup">
+                    <div class="popup-content">
+                        <p id="popup-message"></p>
+                        <button id="close-popup">OK</button>
+                    </div>
+                    </div>
             </div>
         </div>
 
