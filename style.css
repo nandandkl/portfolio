@@ -735,70 +735,7 @@ html{
         }
 
 
-        .popup {
-          display: none;
-          position: fixed;
-          inset: 0;
-          background: rgba(0, 0, 0, 0.3);
-          backdrop-filter: blur(3px);
-          justify-content: center;
-          align-items: center;
-          z-index: 1000;
-          transition: opacity 0.3s ease;
-        }
         
-        .popup.show {
-          display: flex;
-          animation: fadeIn 0.4s ease;
-        }
-        
-        @keyframes fadeIn {
-          from { opacity: 0; }
-          to { opacity: 1; }
-        }
-        
-        .popup-content {
-          background: rgba(28, 3, 68, 0.8);
-          border: 1px solid rgba(255, 255, 255, 0.1);
-          border-radius: 20px;
-          padding: 40px 60px;
-          margin: 20px;
-          text-align: center;
-          box-shadow: 0 0 25px rgba(103, 193, 245, 0.3);
-          color: rgb(194, 183, 243);
-          font-family: "Funnel Display", serif;
-          transform: scale(0.9);
-          animation: popIn 0.3s ease forwards;
-        }
-        
-        @keyframes popIn {
-          from { transform: scale(0.8); opacity: 0; }
-          to { transform: scale(1); opacity: 1; }
-        }
-        
-        .popup-content p {
-          font-size: 1.3em;
-          margin-bottom: 20px;
-          color: #67c1f5;
-        }
-        
-        .popup-content button {
-          background: rgba(255, 255, 255, 0.1);
-          border: 2px solid rgba(255, 255, 255, 0.1);
-          color: #67c1f5;
-          padding: 10px 25px;
-          border-radius: 10px;
-          font-size: 1em;
-          cursor: pointer;
-          transition: all 0.3s ease;
-          font-family: "Funnel Display", serif;
-        }
-        
-        .popup-content button:hover {
-          background: rgba(68, 47, 160, 0.4);
-          color: #fff;
-        }
-
 
 
 
